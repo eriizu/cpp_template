@@ -7,7 +7,7 @@
 
 CXX		=	g++
 
-NAME		=	project
+NAME		=	project.out
 
 RM		=	rm -vf
 

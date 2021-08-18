@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Bonjour.hpp"
+#include "Greeter.hpp"
 
 int main(void)
 {
-	Bonjour bjr;
+	Greeter bjr("toto");
 }

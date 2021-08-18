@@ -3,10 +3,7 @@
 
 class Greeter {
 public:
-	Greeter(const std::string &name) : _name{name}
-	{
-		std::cout << "Hello " << _name << "!" << std::endl;
-	}
+	Greeter(const std::string &name);
 
 	~Greeter()
 	{

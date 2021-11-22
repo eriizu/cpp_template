@@ -5,13 +5,12 @@
 
 void temp_convert(std::istream &is, std::ostream &os)
 {
-	float temp;
+	float	    temp;
 	std::string unit;
 	std::string target;
 
 	is >> temp;
 	is >> unit;
-	// is >> target;
 
 	os << "temp: " << temp << " unit: " << unit << std::endl;
 

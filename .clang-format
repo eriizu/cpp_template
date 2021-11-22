@@ -4,7 +4,7 @@ AlignAfterOpenBracket: Align
 AlignConsecutiveMacros: false
 AlignConsecutiveAssignments: true
 AlignConsecutiveBitFields: true
-AlignConsecutiveDeclarations: false
+AlignConsecutiveDeclarations: true
 AlignEscapedNewlines: Right
 AlignOperands: Align
 AlignTrailingComments: true
@@ -87,7 +87,7 @@ IndentGotoLabels: true
 IndentPPDirectives: AfterHash
 IndentExternBlock: AfterExternBlock
 IndentWidth: 8
-IndentWrappedFunctionNames: false
+IndentWrappedFunctionNames: true
 InsertTrailingCommas: None
 JavaScriptQuotes: Leave
 JavaScriptWrapImports: true

@@ -3,13 +3,13 @@
 
 class Greeter {
 public:
-	Greeter(const std::string &name);
+    Greeter(const std::string &name);
 
-	~Greeter()
-	{
-		std::cout << "Goodbye " << _name << "!" << std::endl;
-	}
+    ~Greeter()
+    {
+        std::cout << "Goodbye " << _name << "!" << std::endl;
+    }
 
 private:
-	std::string _name;
+    std::string _name;
 };
